@@ -98,7 +98,7 @@ public class Main {
             salarios[i][0] = scanner.nextDouble();
 
             if (salarios[i][0] < 0) {
-                System.out.println("\n Digite um salário válido! ------\n");
+                System.out.println("\n---------- Digite um salário válido! ----------\n");
                 i--;
             }
         }
